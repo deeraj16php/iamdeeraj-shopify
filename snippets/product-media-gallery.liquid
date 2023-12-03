@@ -1,14 +1,14 @@
 {% comment %}
   Renders a product media gallery. Should be used with 'media-gallery.js'
-  Also see 'product-media-modal'
+  Also see 'product-media-modal', can show gallery images as pop-up modal.
 
-  Accepts:
-  - product: {Object} Product liquid object
-  - variant_images: {Array} Product images associated with a variant
-  - is_duplicate: {Boolean} Prevents rendering uneeded elements and duplicate ids for subsequent instances
+	Accepts:
+	  - product: {Object} Product liquid object
+	  - variant_images: {Array} Product images associated with a variant
+	  - is_duplicate: {Boolean} Prevents rendering uneeded elements and duplicate ids for subsequent instances
 
-  Usage:
-  {% render 'product-media-gallery', is_duplicate: true %}
+	Usage:
+	  {% render 'product-media-gallery', is_duplicate: true %}
 {% endcomment %}
 
 {%- liquid

@@ -1,3 +1,11 @@
+{% comment %}
+	Create a custom Description with CTA buttons with a Title
+	  1. Custom section to find the product links to buy on third-party applications.
+	  2. Since we need to map Amazon and Flipkart URL's to respective products, we have achieved it via SHOPIFY META-FIELDS (dynamic data sources) mapped to the products.
+	  3. Information/Text used in this section are rendered from a shopify schema file, 
+	    so we no longer edit on each files separatly and no need code push often. 
+{% endcomment %}
+
 {{ 'component-rich-text-cta-buttons-min.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}

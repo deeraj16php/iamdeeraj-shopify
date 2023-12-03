@@ -1,19 +1,21 @@
 {% comment %}
-  Renders product variant options
+  Renders product variant options in Product detail page.
 
   Accepts:
-  - product: {Object} product object.
-  - option: {Object} current product_option object.
-  - block: {Object} block object.
+	- product: {Object} product object.
+	- option: {Object} current product_option object.
+	- block: {Object} block object.
 
 
   Usage:
-  {% render 'product-variant-options',
-    product: product,
-    option: option,
-    block: block
-  %}
+	  {% render 'product-variant-options',
+	    product: product,
+	    option: option,
+	    block: block
+	  %}
+  
 {% endcomment %}
+
 {%- liquid
   assign variants_available_arr = product.variants | map: 'available'
   assign variants_option1_arr = product.variants | map: 'option1'

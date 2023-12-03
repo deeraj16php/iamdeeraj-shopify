@@ -1,3 +1,8 @@
+/*
+	###########################
+	 CART Notification
+	###########################
+*/
 class CartNotification extends HTMLElement {
   constructor() {
     super();

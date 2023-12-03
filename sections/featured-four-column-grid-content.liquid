@@ -1,3 +1,11 @@
+{% comment %}
+	Create a custom 4 column Grid Section with Accordion toggle with icon on the right side of the section
+	  1. Used The Details disclosure element (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
+	  2. Used blocks in the sections and limited blocks count to 4
+	  3. Information/Text used in this section are rendered from a shopify schema file, 
+	    so we no longer edit on each files separatly and no need code push often. 
+{% endcomment %}
+
 {{ 'component-four-column-grid-min.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion-min.css' | asset_url | stylesheet_tag }}
 
@@ -6,6 +14,7 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;

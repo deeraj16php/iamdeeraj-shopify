@@ -1,3 +1,11 @@
+{% comment %}
+	Create a custom FAQ Section with Accordion toggle with a Title
+	  1. Used The Details disclosure element (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
+	  2. Used blocks in the sections and have not limited blocks counts, so we can add upto 50 FAQ items(blocks)
+	  3. Information/Text used in this section are rendered from a shopify schema file, 
+	    so we no longer edit on each files separatly and no need code push often. 
+{% endcomment %}
+
 {{ 'component-faq-min.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion-min.css' | asset_url | stylesheet_tag }}
 
@@ -24,12 +32,7 @@
       {%- case block.type -%}
         {%- when 'faq_items' -%}
           <div class="accordion accordion__item">
-            <details
-              id="faq"
-              {% if forloop.index == 1 and section.settings.open_accordion_content -%}
-                open
-              {% endif %}
-            >
+            <details id="faq" {% if forloop.index == 1 and section.settings.open_accordion_content -%} open{% endif %}>
               <summary>
                 <h3 class="accordion__title">{{ block.settings.faq_title }}</h3>
                 {% render 'accordion-icon' %}

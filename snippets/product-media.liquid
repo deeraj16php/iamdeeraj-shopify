@@ -1,12 +1,14 @@
 {% comment %}
     Renders product media
+    Resolved shopify deprecated codes in theme
 
-    Accepts:
+  Accepts:
     - media: {Object} Product Media object
     - loop: {Boolean} Enable video looping (optional)
     - variant_image: {Boolean} Whether or not media is associated with a variant
 
-    Usage:
+  Usage:
+
     {% render 'product-media',
       media: media,
       loop: section.settings.enable_video_looping,

@@ -1,14 +1,14 @@
 {% comment %}
-  Renders share button.
+  	Renders share button for overall site, we can call this snippet when ever we need to share any page/blog/collections/products..
   Accepts:
-  - block: {Object} passes in the block information.
-  - share_link: {String} url to be added to the input the user will get/copy.
+	  - block: {Object} passes in the block information.
+	  - share_link: {String} url to be added to the input the user will get/copy.
 
   Usage:
-  {% render 'share-button',
-    block: block,
-    share_link: share_url
-  %}
+	  {% render 'share-button',
+	    block: block,
+	    share_link: share_url
+	  %}
 {% endcomment %}
 <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
 

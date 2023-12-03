@@ -16,6 +16,12 @@ if (!customElements.get('product-form')) {
         this.hideErrors = this.dataset.hideErrors === 'true';
       }
 
+      /*
+        ###############################################################################################
+        Add-to-Cart Ajax functionality
+        ###############################################################################################
+      */
+
       onSubmitHandler(evt) {
         evt.preventDefault();
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;

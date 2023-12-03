@@ -1,3 +1,8 @@
+/*
+	##########################################################
+	Create and Render CART page HTML and scripts functionality
+	############################################################
+*/
 class CartRemoveButton extends HTMLElement {
   constructor() {
     super();
