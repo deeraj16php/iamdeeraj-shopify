@@ -20,9 +20,20 @@
 ### Product with variations : https://iamdeeraj.myshopify.com/products/the-3p-fulfilled-snowboard:
 
 
-### Product without variations :  https://iamdeeraj.myshopify.com/products/the-collection-snowboard-hydrogen
+### Product without variations:  https://iamdeeraj.myshopify.com/products/the-collection-snowboard-hydrogen
 
-### Cart URL :  https://iamdeeraj.myshopify.com/cart
+### Cart URL:  https://iamdeeraj.myshopify.com/cart
 
+
+## Screenshots (For Reference):
+
+### Admin : 
+  ### 1. 4-column grid Section Layout - https://imgur.com/nDKvrn3
+  ### 2. FAQ Section  - https://imgur.com/PwiKf18
+  ### 3. Linking Metafields in product template - https://imgur.com/dCwdMkB
+
+### Front End: 
+ ### 1. Product detail page: https://imgur.com/om5RZgI
+ ### 2. Cart page - https://imgur.com/un8du00
 
 
