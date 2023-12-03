@@ -21,7 +21,7 @@
   }
 {%- endstyle -%}
 
-<section class="helpful-wrapper page-width" {% if section.settings.full_width %} style="background-color: {{ section.settings.bg-color }}" {% endif %}>
+<section id="helpful-wrapper" class="helpful-wrapper page-width" {% if section.settings.full_width %} style="background-color: {{ section.settings.bg-color }}" {% endif %}>
   {% unless section.settings.full_width %}
     <div class="section-wrapper" style="background-color: {{ section.settings.bg-color }}">
   {% endunless %}

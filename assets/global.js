@@ -1151,11 +1151,6 @@ class VariantSelects extends HTMLElement {
       });
   }
 
-  /*
-    ###############################################################################################
-    Provide intuitive feedback when cart actions are in progress and prevent multiple submissions
-    ###############################################################################################
-  */
   toggleAddButton(disable = true, text, modifyClass = true) {
     const productForm = document.getElementById(`product-form-${this.dataset.section}`);
     if (!productForm) return;

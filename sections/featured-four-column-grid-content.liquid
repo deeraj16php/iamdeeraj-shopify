@@ -31,7 +31,7 @@
   endif
 -%}
 
-<div class="four-col-grid-section section-{{ section.id }}-padding page-width {{ section.settings.columns_mobile }}">
+<div id="four-col-grid-section" class="four-col-grid-section section-{{ section.id }}-padding page-width {{ section.settings.columns_mobile }}">
   <details id="Details-{{ section.id }}" {% if section.settings.open_accordion_content %}open{% endif %}>
     <summary class="{% if section.settings.enable_accordion %}accordion-layout{% endif %}" aria-label="{{ section.settings.title | escape }}">
       {%- if section.settings.title != blank -%}
