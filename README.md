@@ -17,10 +17,10 @@
 
 
 
-### Product with variations : [Demo URL](https://iamdeeraj.myshopify.com/products/the-3p-fulfilled-snowboard):
+### Product with variations : https://iamdeeraj.myshopify.com/products/the-3p-fulfilled-snowboard:
 
 
-### Product without variations :  [Demo URL](https://iamdeeraj.myshopify.com/products/the-collection-snowboard-hydrogen)
+### Product without variations :  https://iamdeeraj.myshopify.com/products/the-collection-snowboard-hydrogen
 
 
 
