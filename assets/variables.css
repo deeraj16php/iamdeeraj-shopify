@@ -1,0 +1,30 @@
+:root {
+    --size-tiny-xs: 7px;
+    --size-tiny: 10px;
+    --size-smallest: 12px;
+    --size-smaller: 13px;
+    --size-small: 14px;
+    --size-regular: 16px;
+    --size-large: 18px;
+    --size-larger: 19px;
+    --size-largest: 20px;
+    --size-largest-1: 22px;
+    --size-heading: 24px;
+    --size-heading-0: 26px;
+    --size-heading-1: 28px;
+    --size-heading-2: 30px;
+    --size-heading-3: 32px;
+    --size-heading-4: 40px;
+    --size-heading-5: 48px;
+    --size-heading-6: 60px;
+    --size-heading-7: 64px;
+    --color-primary: #00257a;
+    --color-white: #fff;
+    --size-bold: 700;
+    --size-semi-bold: 600;
+    --size-regular-bold: 500;
+    --font-family-1: "Open Sans", sans-serif;
+    --font-family-2: "Open Sans", sans-serif;
+    --font-family-3: "Open Sans", sans-serif;
+  }
+  
